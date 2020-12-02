@@ -2,7 +2,7 @@ def ez_solve():
 
     with open('data') as f:
         numbers = f.read().splitlines()
-        numbers = [int(number) for number in numbers]
+    numbers = [int(number) for number in numbers]
 
 
     for number in numbers:
