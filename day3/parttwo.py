@@ -1,5 +1,3 @@
-import fileinput
-
 def im_luke_skywalkin(hor: int, ver: int):
 
     count = 0
