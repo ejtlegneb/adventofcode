@@ -1,12 +1,10 @@
-import fileinput
-
 def havent_done_my_taxes_im_too_turnt_up():
 
     ver_i = 0
     hor_i = 0
     count = 0
 
-    with open ('data') as f:
+    with open ('tdata') as f:
         tree_map = f.read().splitlines()
 
     tree_map = [list(x) for x in tree_map]
