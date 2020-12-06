@@ -33,7 +33,7 @@ def twentyfirst_night_of_september():
         n_list.append(int(str(seat[0]) + str(seat[1])))
     n_list.sort()
     for i, nr in enumerate(n_list[:-1]):
-        if n_list[i+1] - nr > 1 and n_list[i+1] % 10 != 0:
+        if n_list[i+1] - nr > 1 and (n_list[i+1] % 10 != 0 and nr % 10 != 7):
             print(int(sum([nr, n_list[i+1]]) / 2))
 
 
